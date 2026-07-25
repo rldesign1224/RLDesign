@@ -1,0 +1,263 @@
+html_code = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RL Design | Interior Renovation Consultancy</title>
+  <meta name="description" content="RL Design brings 30 years of international hospitality interior design expertise to flats and condominiums. Bespoke renovation consultancy.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>body{font-family:'Inter',sans-serif;}</style>
+</head>
+<body>
+<div class="min-h-screen bg-stone-50 text-stone-800 font-sans">
+  <nav class="fixed top-0 w-full bg-stone-50/90 backdrop-blur-md border-b border-stone-200 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-2xl font-light tracking-widest text-stone-900">RL <span class="font-semibold">DESIGN</span></div>
+      <div class="hidden md:flex gap-8 text-sm tracking-wide text-stone-600">
+        <a href="#about" class="hover:text-stone-900 transition">ABOUT</a>
+        <a href="#services" class="hover:text-stone-900 transition">SERVICES</a>
+        <a href="#portfolio" class="hover:text-stone-900 transition">PORTFOLIO</a>
+        <a href="#process" class="hover:text-stone-900 transition">PROCESS</a>
+        <a href="#contact" class="hover:text-stone-900 transition">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="relative h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-stone-900">
+      <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80" class="w-full h-full object-cover opacity-60" alt="Luxury Interior"/>
+    </div>
+    <div class="relative z-10 text-center px-6 max-w-4xl">
+      <p class="text-stone-300 text-sm tracking-[0.3em] mb-6 uppercase">Three Decades of Distinction</p>
+      <h1 class="text-5xl md:text-7xl font-light text-white mb-6 leading-tight">Hospitality Elegance,<br/><span class="font-semibold italic">Residential Soul</span></h1>
+      <p class="text-stone-300 text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 leading-relaxed">Transforming flats and condos into bespoke sanctuaries. We bring international hotel-grade craftsmanship to your home.</p>
+      <a href="#contact" class="inline-block border border-white text-white px-10 py-4 text-sm tracking-widest hover:bg-white hover:text-stone-900 transition duration-300">BEGIN YOUR TRANSFORMATION</a>
+    </div>
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50 text-xs tracking-widest animate-bounce">SCROLL</div>
+  </section>
+
+  <section id="about" class="py-24 px-6 max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+      <div>
+        <p class="text-stone-400 text-sm tracking-[0.2em] mb-4 uppercase">Our Story</p>
+        <h2 class="text-4xl font-light text-stone-900 mb-8">Three Decades of<br/><span class="font-semibold">Design Excellence</span></h2>
+        <div class="space-y-6 text-stone-600 leading-relaxed">
+          <p>With <strong class="text-stone-900">30 years of experience</strong> in interior architecture, our founder honed their craft at a leading <strong class="text-stone-900">American International Hospitality design firm</strong>, delivering world-class spaces across continents.</p>
+          <p>Now, we channel that same level of sophistication, precision, and luxury into <strong class="text-stone-900">flats and condominiums</strong> — because exceptional design shouldn't be reserved for five-star hotels alone.</p>
+          <p>Every project is a collaboration. Every detail is intentional. Every space tells your story.</p>
+        </div>
+        <div class="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-stone-200">
+          <div><p class="text-3xl font-light text-stone-900">30+</p><p class="text-xs text-stone-500 tracking-wide mt-1">Years Experience</p></div>
+          <div><p class="text-3xl font-light text-stone-900">500+</p><p class="text-xs text-stone-500 tracking-wide mt-1">Projects Completed</p></div>
+          <div><p class="text-3xl font-light text-stone-900">12</p><p class="text-xs text-stone-500 tracking-wide mt-1">Countries Served</p></div>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80" class="w-full h-[600px] object-cover" alt="Designer at work"/>
+        <div class="absolute -bottom-6 -left-6 bg-stone-900 text-white p-8 max-w-xs">
+          <p class="text-sm italic leading-relaxed">"Great design is not just about aesthetics — it's about how a space makes you feel every single day."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-stone-100 py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <p class="text-stone-400 text-sm tracking-[0.2em] mb-4 uppercase">What We Do</p>
+        <h2 class="text-4xl font-light text-stone-900">Curated Services for<br/><span class="font-semibold">Discerning Homeowners</span></h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-10 group hover:shadow-xl transition duration-500">
+          <div class="w-12 h-12 bg-stone-900 text-white flex items-center justify-center mb-6 text-xl">01</div>
+          <h3 class="text-xl font-semibold text-stone-900 mb-4">Full Renovation Consultancy</h3>
+          <p class="text-stone-600 leading-relaxed text-sm">End-to-end project management from concept to completion. We handle contractors, timelines, and quality control so you don't have to worry.</p>
+        </div>
+        <div class="bg-white p-10 group hover:shadow-xl transition duration-500">
+          <div class="w-12 h-12 bg-stone-900 text-white flex items-center justify-center mb-6 text-xl">02</div>
+          <h3 class="text-xl font-semibold text-stone-900 mb-4">Spatial Planning & Layout</h3>
+          <p class="text-stone-600 leading-relaxed text-sm">Maximizing every square foot of your flat or condo. We reimagine floor plans to enhance flow, light, and livability without compromising style.</p>
+        </div>
+        <div class="bg-white p-10 group hover:shadow-xl transition duration-500">
+          <div class="w-12 h-12 bg-stone-900 text-white flex items-center justify-center mb-6 text-xl">03</div>
+          <h3 class="text-xl font-semibold text-stone-900 mb-4">Bespoke Interior Design</h3>
+          <p class="text-stone-600 leading-relaxed text-sm">Custom furniture, material selection, and finishing details that reflect your personality while maintaining timeless elegance and hotel-grade quality.</p>
+        </div>
+        <div class="bg-white p-10 group hover:shadow-xl transition duration-500">
+          <div class="w-12 h-12 bg-stone-900 text-white flex items-center justify-center mb-6 text-xl">04</div>
+          <h3 class="text-xl font-semibold text-stone-900 mb-4">Material & Finish Curation</h3>
+          <p class="text-stone-600 leading-relaxed text-sm">Access to premium suppliers and exclusive materials. From Italian marble to custom millwork, we source finishes that elevate your everyday living.</p>
+        </div>
+        <div class="bg-white p-10 group hover:shadow-xl transition duration-500">
+          <div class="w-12 h-12 bg-stone-900 text-white flex items-center justify-center mb-6 text-xl">05</div>
+          <h3 class="text-xl font-semibold text-stone-900 mb-4">Lighting Design</h3>
+          <p class="text-stone-600 leading-relaxed text-sm">Layered lighting schemes that transform mood and functionality. We design ambient, task, and accent lighting worthy of luxury hospitality spaces.</p>
+        </div>
+        <div class="bg-white p-10 group hover:shadow-xl transition duration-500">
+          <div class="w-12 h-12 bg-stone-900 text-white flex items-center justify-center mb-6 text-xl">06</div>
+          <h3 class="text-xl font-semibold text-stone-900 mb-4">Project Supervision</h3>
+          <p class="text-stone-600 leading-relaxed text-sm">On-site oversight ensuring every detail matches the design intent. We protect your investment through rigorous quality assurance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="py-24 px-6 max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <p class="text-stone-400 text-sm tracking-[0.2em] mb-4 uppercase">Selected Works</p>
+      <h2 class="text-4xl font-light text-stone-900">Flats & Condos,<br/><span class="font-semibold">Reimagined</span></h2>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="relative group overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" class="w-full h-[500px] object-cover transition duration-700 group-hover:scale-105" alt="Modern Condo"/>
+        <div class="absolute inset-0 bg-stone-900/60 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+          <div><p class="text-stone-300 text-xs tracking-widest mb-2">PENTHOUSE RENOVATION</p><h3 class="text-white text-2xl font-light">The Sky Residence</h3></div>
+        </div>
+      </div>
+      <div class="relative group overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" class="w-full h-[500px] object-cover transition duration-700 group-hover:scale-105" alt="Luxury Flat"/>
+        <div class="absolute inset-0 bg-stone-900/60 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+          <div><p class="text-stone-300 text-xs tracking-widest mb-2">HERITAGE FLAT RESTORATION</p><h3 class="text-white text-2xl font-light">The Colonial Suite</h3></div>
+        </div>
+      </div>
+      <div class="relative group overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" class="w-full h-[500px] object-cover transition duration-700 group-hover:scale-105" alt="Contemporary Condo"/>
+        <div class="absolute inset-0 bg-stone-900/60 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+          <div><p class="text-stone-300 text-xs tracking-widest mb-2">MINIMALIST CONDO</p><h3 class="text-white text-2xl font-light">The Urban Sanctuary</h3></div>
+        </div>
+      </div>
+      <div class="relative group overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1600573472591-ee6c563aaec9?w=800&q=80" class="w-full h-[500px] object-cover transition duration-700 group-hover:scale-105" alt="Elegant Flat"/>
+        <div class="absolute inset-0 bg-stone-900/60 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-8">
+          <div><p class="text-stone-300 text-xs tracking-widest mb-2">LUXURY FAMILY FLAT</p><h3 class="text-white text-2xl font-light">The Garden Residence</h3></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="bg-stone-900 text-white py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <p class="text-stone-400 text-sm tracking-[0.2em] mb-4 uppercase">How We Work</p>
+        <h2 class="text-4xl font-light">A Refined Process,<br/><span class="font-semibold">Hassle-Free Results</span></h2>
+      </div>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 border border-stone-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-light">1</div>
+          <h3 class="text-lg font-semibold mb-3">Discovery</h3>
+          <p class="text-stone-400 text-sm leading-relaxed">We listen. Understanding your lifestyle, preferences, and aspirations is where every great design begins.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 border border-stone-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-light">2</div>
+          <h3 class="text-lg font-semibold mb-3">Concept</h3>
+          <p class="text-stone-400 text-sm leading-relaxed">Mood boards, 3D visualizations, and detailed proposals bring your vision to life before construction begins.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 border border-stone-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-light">3</div>
+          <h3 class="text-lg font-semibold mb-3">Execution</h3>
+          <p class="text-stone-400 text-sm leading-relaxed">We manage contractors, timelines, and quality control with the precision of a hospitality project.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 border border-stone-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-light">4</div>
+          <h3 class="text-lg font-semibold mb-3">Handover</h3>
+          <p class="text-stone-400 text-sm leading-relaxed">A meticulously finished space, delivered on time. We don't consider the job done until you're delighted.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 px-6 max-w-5xl mx-auto text-center">
+    <p class="text-stone-400 text-sm tracking-[0.2em] mb-4 uppercase">Client Words</p>
+    <h2 class="text-4xl font-light text-stone-900 mb-16">Trusted by <span class="font-semibold">Homeowners</span></h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="border-t border-stone-300 pt-8">
+        <p class="text-stone-600 italic leading-relaxed mb-6">"They transformed our 800 sq ft condo into something that feels like a five-star suite. The attention to detail is extraordinary."</p>
+        <p class="text-stone-900 font-semibold text-sm">— Sarah & James L.</p>
+        <p class="text-stone-400 text-xs">Marina Bay Residence</p>
+      </div>
+      <div class="border-t border-stone-300 pt-8">
+        <p class="text-stone-600 italic leading-relaxed mb-6">"Decades of experience show in every decision they made. Our flat finally feels like a home designed just for us."</p>
+        <p class="text-stone-900 font-semibold text-sm">— Michael T.</p>
+        <p class="text-stone-400 text-xs">Orchard Boulevard Flat</p>
+      </div>
+      <div class="border-t border-stone-300 pt-8">
+        <p class="text-stone-600 italic leading-relaxed mb-6">"Professional, patient, and incredibly talented. They managed our full renovation while we were overseas — flawless execution."</p>
+        <p class="text-stone-900 font-semibold text-sm">— The Chen Family</p>
+        <p class="text-stone-400 text-xs">Sentosa Cove Condo</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-stone-100 py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-16">
+        <div>
+          <p class="text-stone-400 text-sm tracking-[0.2em] mb-4 uppercase">Get in Touch</p>
+          <h2 class="text-4xl font-light text-stone-900 mb-8">Let's Create Your<br/><span class="font-semibold">Dream Space</span></h2>
+          <p class="text-stone-600 leading-relaxed mb-10">Whether you're renovating a flat or reimagining a condo, we'd love to hear about your project. Every great space starts with a conversation.</p>
+          <div class="space-y-6">
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 bg-stone-900 text-white flex items-center justify-center text-sm">@</div>
+              <div><p class="text-xs text-stone-400 tracking-wide">EMAIL</p><p class="text-stone-900">hello@rldesign.com</p></div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 bg-stone-900 text-white flex items-center justify-center text-sm">T</div>
+              <div><p class="text-xs text-stone-400 tracking-wide">PHONE</p><p class="text-stone-900">+1 (555) 234-5678</p></div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 bg-stone-900 text-white flex items-center justify-center text-sm">L</div>
+              <div><p class="text-xs text-stone-400 tracking-wide">STUDIO</p><p class="text-stone-900">Design District, Suite 400</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-10 shadow-lg">
+          <form class="space-y-6" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div>
+              <label class="block text-xs text-stone-400 tracking-wide mb-2">YOUR NAME</label>
+              <input type="text" name="name" class="w-full border-b border-stone-300 py-2 focus:outline-none focus:border-stone-900 transition bg-transparent" placeholder="John Doe" required/>
+            </div>
+            <div>
+              <label class="block text-xs text-stone-400 tracking-wide mb-2">EMAIL ADDRESS</label>
+              <input type="email" name="email" class="w-full border-b border-stone-300 py-2 focus:outline-none focus:border-stone-900 transition bg-transparent" placeholder="john@email.com" required/>
+            </div>
+            <div>
+              <label class="block text-xs text-stone-400 tracking-wide mb-2">PROPERTY TYPE</label>
+              <select name="property" class="w-full border-b border-stone-300 py-2 focus:outline-none focus:border-stone-900 transition bg-transparent text-stone-600">
+                <option>Flat / Apartment</option>
+                <option>Condominium</option>
+                <option>Penthouse</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs text-stone-400 tracking-wide mb-2">TELL US ABOUT YOUR PROJECT</label>
+              <textarea name="message" rows="4" class="w-full border-b border-stone-300 py-2 focus:outline-none focus:border-stone-900 transition bg-transparent resize-none" placeholder="I'm looking to renovate my 2-bedroom condo..." required></textarea>
+            </div>
+            <button type="submit" class="w-full bg-stone-900 text-white py-4 text-sm tracking-widest hover:bg-stone-700 transition duration-300">SEND INQUIRY</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-stone-900 text-white py-16 px-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+      <div class="text-2xl font-light tracking-widest">RL <span class="font-semibold">DESIGN</span></div>
+      <div class="text-stone-400 text-sm">© 2026 RL Design. All rights reserved.</div>
+      <div class="flex gap-6 text-stone-400 text-sm">
+        <a href="#" class="hover:text-white transition">Instagram</a>
+        <a href="#" class="hover:text-white transition">LinkedIn</a>
+        <a href="#" class="hover:text-white transition">Pinterest</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>'''
+
+with open('/mnt/agents/output/rldesign_website.html', 'w', encoding='utf-8') as f:
+    f.write(html_code)
+
+print("Saved successfully!")
+print(f"File size: {len(html_code)} characters")
